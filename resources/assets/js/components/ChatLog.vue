@@ -1,8 +1,8 @@
 <template lang="html">
   <div class="chat-log">
-    <chat-log></chat-log>
-    <chat-log></chat-log>
-    <chat-log></chat-log>
+    <chat-message></chat-message>
+    <chat-message></chat-message>
+    <chat-message></chat-message>
   </div>
 </template>
 

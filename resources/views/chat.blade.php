@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
-    <h1>Chatroom</h1>
-    
-    <script src="js/app.js"></script>
+    <div id='app'>
+      <h1>Chatroom</h1>
+      <chat-message></chat-message>
+      <chat-log></chat-log>
+      <chat-composer></chat-composer>
+    </div>
+
+    <script src="js/app.js" charset="utf-8"></script>
   </body>
 </html>
